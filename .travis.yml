@@ -8,6 +8,7 @@ env:
   - KARMA_BROWSERS=DartiumWithWebPlatform
   - E2E_BROWSERS=Dartium
   - LOGS_DIR=/tmp/angular-build/logs
+  - ARCH=linux-x64
 
 before_install:
 - export DISPLAY=:99.0
